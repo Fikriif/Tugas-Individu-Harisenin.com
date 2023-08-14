@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #f2f5f9;
+
+}
+
+header {
+    display: flex;
+    padding: 22px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman';
+}
+
+.my {
+    color: #EC1B09;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.portfolio {
+    color: #FF9C1A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gambar {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 150px;
+    height: 150px;
+}

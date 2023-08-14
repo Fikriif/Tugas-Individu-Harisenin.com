@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Tugas Individu</title>
+  </head>
+  <body>
+    <header>
+      <div class="ml-10">
+        <p class="my">My<span class="portfolio">Portfolio</span></p>
+      </div>
+    </header>
+
+    <div class="flex">
+      <!--Profile Card-->
+      <div class="card w-1/4 shadow-xl ml-20 mb-20">
+        <figure class="px-10 pt-10 bg-white">
+          <img src="/img/foto.jpg" alt="None" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center bg-white rounded-b-xl">
+          <h2 class="card-title bg-white text-3xl font-bold">
+            Fikri Ibnu Fajar
+          </h2>
+          <p class="text-sm bg-white">FullStack Developer</p>
+          <div class="flex flex-cols-4 justify-center gap-3 w-9 mt-3 mb-3">
+            <img src="img/facebook.png" alt="" />
+            <img src="img/linkedin.png" alt="" />
+            <img src="img/twitter.png" alt="" />
+            <img src="img/github-logo.png" alt="" />
+          </div>
+          <br />
+          <div class="card-actions box-border flex flex-col items-center w-60">
+            <div class="divide-y divide-slate-300">
+              <div class="flex flex-auto gap-5 pt-5 pb-3">
+                <img src="img/operator.png" alt="" class="w-7 h-7" />
+                <div>
+                  <p class="text-left text-sm text-gray-400">Phone</p>
+                  <p>0819-5342-4355</p>
+                </div>
+              </div>
+              <div class="flex flex-auto gap-5 py-3">
+                <img src="img/mail.png" alt="" class="w-7 h-7" />
+                <div>
+                  <p class="text-left text-sm text-gray-400">Email</p>
+                  <p>fikriibnuf@gmail.com</p>
+                </div>
+              </div>
+              <div class="flex flex-auto gap-5 py-3">
+                <img src="img/location.png" alt="" class="w-7 h-7" />
+                <div>
+                  <p class="text-left text-sm text-gray-400">Location</p>
+                  <p>Tegal, Jawa Tengah</p>
+                </div>
+              </div>
+              <div class="pt-5 pb-7">
+                <button class="btn btn-warning rounded-3xl">
+                  Download Resume
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-3/4">
+        <!--Navbar-->
+        <div class="flex flex-row-reverse mr-32">
+          <nav>
+            <!--NavCard-->
+            <div
+              class="flex flex-row gap-5 py-4 px-20 border-4 shadow-lg rounded-3xl"
+            >
+              <div>
+                <a href="about.html" class="btn btn-warning flex flex-col">
+                  <img
+                    src="img/house-solid.svg"
+                    alt=""
+                    width="20"
+                    height="20"
+                    style="background-color: rgb(253 186 116)"
+                  />
+                  Home
+                </a>
+              </div>
+              <div>
+                <a href="resume.html" class="btn btn-warning flex flex-col">
+                  <img
+                    src="img/resume.svg"
+                    alt=""
+                    width="15"
+                    height="15"
+                    style="background-color: rgb(253 186 116)"
+                  />
+                  Resume
+                </a>
+              </div>
+              <div>
+                <a href="contact.html" class="btn btn-warning flex flex-col">
+                  <img
+                    src="	https://www.svgrepo.com/show/434748/contact-book.svg"
+                    alt=""
+                    width="20"
+                    height="20"
+                    decoding="async"
+                    style="background-color: rgb(253 186 116)"
+                  />
+                  Contact
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <br />
+
+        <!--Resume-->
+        <div class="card ml-10 mr-10 px-14 rounded-3xl bg-white">
+          <div class="bg-white pb-10">
+            <div>
+              <h1 class="text-3xl font-semibold bg-white py-4">Resume</h1>
+            </div>
+            <div class="flex flex-cols-2 bg-white justify-around">
+              <div class="flex flex-cols-2 gap-3 items-center bg-white">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="29"
+                    viewBox="0 0 28 29"
+                    fill="none"
+                    style="background-color: white"
+                  >
+                    <path
+                      d="M1.15625 10.6821L13.304 5.82812L25.4517 10.6821L13.304 15.5361L1.15625 10.6821Z"
+                      stroke="url(#paint0_linear_157_651)"
+                      stroke-width="2.31143"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M25.4492 10.7461V16.0757M6.67578 13.2396V20.4293C6.67578 20.4293 9.45528 23.1643 13.3015 23.1643C17.1483 23.1643 19.9278 20.4293 19.9278 20.4293V13.2396"
+                      stroke="url(#paint1_linear_157_651)"
+                      stroke-width="2.31143"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_157_651"
+                        x1="13.304"
+                        y1="5.82812"
+                        x2="13.304"
+                        y2="15.5361"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FF9C1B" />
+                        <stop offset="1" stop-color="#EC1B09" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_157_651"
+                        x1="16.0625"
+                        y1="10.7461"
+                        x2="16.0625"
+                        y2="23.1643"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FF9C1B" />
+                        <stop offset="1" stop-color="#EC1B09" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p class="bg-white text-2xl font-semibold">Education</p>
+              </div>
+              <div class="flex flex-cols-2 gap-3 bg-white">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="29"
+                    height="29"
+                    viewBox="0 0 29 29"
+                    fill="none"
+                    style="background-color: white"
+                  >
+                    <path
+                      d="M10.2283 9.88068V7.56924C10.2283 6.95621 10.4719 6.36829 10.9053 5.93482C11.3388 5.50134 11.9267 5.25781 12.5398 5.25781H17.1626C17.7757 5.25781 18.3636 5.50134 18.7971 5.93482C19.2305 6.36829 19.4741 6.95621 19.4741 7.56924V9.88068M5.60547 16.815L9.24597 17.7245C12.9262 18.6444 16.7762 18.6444 20.4564 17.7245L24.0969 16.815"
+                      stroke="url(#paint0_linear_157_646)"
+                      stroke-width="2.31143"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M5.60547 12.1923C5.60547 11.5793 5.84899 10.9913 6.28247 10.5579C6.71595 10.1244 7.30387 9.88086 7.9169 9.88086H21.7855C22.3985 9.88086 22.9864 10.1244 23.4199 10.5579C23.8534 10.9913 24.0969 11.5793 24.0969 12.1923V21.438C24.0969 22.051 23.8534 22.639 23.4199 23.0724C22.9864 23.5059 22.3985 23.7495 21.7855 23.7495H7.9169C7.30387 23.7495 6.71595 23.5059 6.28247 23.0724C5.84899 22.639 5.60547 22.051 5.60547 21.438V12.1923Z"
+                      stroke="url(#paint1_linear_157_646)"
+                      stroke-width="2.31143"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M14.8471 15.6571C15.4854 15.6571 16.0028 15.1397 16.0028 14.5014C16.0028 13.8631 15.4854 13.3457 14.8471 13.3457C14.2088 13.3457 13.6914 13.8631 13.6914 14.5014C13.6914 15.1397 14.2088 15.6571 14.8471 15.6571Z"
+                      fill="url(#paint2_linear_157_646)"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear_157_646"
+                        x1="14.8512"
+                        y1="5.25781"
+                        x2="14.8512"
+                        y2="18.4144"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FF9C1A" />
+                        <stop offset="1" stop-color="#E80505" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint1_linear_157_646"
+                        x1="14.8512"
+                        y1="9.88086"
+                        x2="14.8512"
+                        y2="23.7495"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FF9C1A" />
+                        <stop offset="1" stop-color="#E80505" />
+                      </linearGradient>
+                      <linearGradient
+                        id="paint2_linear_157_646"
+                        x1="14.8471"
+                        y1="13.3457"
+                        x2="14.8471"
+                        y2="15.6571"
+                        gradientUnits="userSpaceOnUse"
+                      >
+                        <stop stop-color="#FF9C1A" />
+                        <stop offset="1" stop-color="#E80505" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <p class="text-2xl font-semibold bg-white">Experience</p>
+              </div>
+            </div>
+
+            <!--4 Kolom-->
+            <div class="flex flex-col place-content-between bg-white">
+              <div class="grid grid-cols-2 gap-10 bg-white py-3">
+                
+                <!--kolom 1-->
+                <div class="card bg-orange-200 rounded-box pl-2 pr-26 py-7">
+                  <div>
+                    <p class="bg-orange-200 text-current">2020-2021</p>
+                  </div>
+                  <div class="bg-orange-200 text-lg">
+                    <p class="bg-orange-200 font-semibold">
+                      Software Dovelopment
+                    </p>
+                  </div>
+                  <p class="bg-orange-200">Moringa School</p>
+                </div>
+
+                <!--kolom 2-->
+                <div class="card bg-orange-100 rounded-box pl-2 pr-26 py-7">
+                  <div>
+                    <p class="bg-orange-100 text-current">2022-Present</p>
+                  </div>
+                  <div class="bg-orange-100 text-lg">
+                    <p class="bg-orange-100 font-semibold">Technical Mentor</p>
+                  </div>
+                  <p class="bg-orange-100">Moringa School</p>
+                </div>
+              </div>
+
+              <!--Kolom 3-->
+              <div class="grid grid-cols-2 gap-10 bg-white">
+                <div class="card bg-orange-100 rounded-box pr-26 pl-2 py-7">
+                  <div>
+                    <p class="bg-orange-100 text-current">2012-2016</p>
+                  </div>
+                  <div class="bg-orange-100 text-lg">
+                    <p class="bg-orange-100 font-semibold">
+                      Disaster Management
+                    </p>
+                  </div>
+                  <p class="bg-orange-100">Mansinde Muliro University</p>
+                </div>
+
+                <!--kolom 4-->
+                <div class="card bg-orange-200 rounded-box pl-2 pr-26 py-7">
+                  <div>
+                    <p class="bg-orange-200 text-current">2021-2021</p>
+                  </div>
+                  <div class="bg-orange-200 text-lg">
+                    <p class="bg-orange-200 font-semibold">Website Development</p>
+                  </div>
+                  <p class="bg-orange-200">Village 2 Nation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Work & Soft Skill -->
+
+        <!--Work Skills-->
+        <div class="flex">
+          <div class="pl-28 w-1/2 pt-3">
+            <div class="bg-base-300 text-2xl font-bold text-left">
+              <h3>Work Skills</h3>
+            </div>
+            <div class="flex flex-wrap gap-6 pt-5">
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Next.js
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                React.js
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                HTML 5
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                CSS 3
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Tailwind CSS
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Figma
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                JavaScript
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Mongo DB
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                SQL
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Angular
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Andoid
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Git
+              </div>
+            </div>
+          </div>
+
+          <!--Soft-->
+          <div class="pl-7 w-1/2 pr-10">
+            <div class="text-2xl text-left font-bold pt-3">
+              <h1>Soft Skills</h1>
+            </div>
+            <div class="flex flex-wrap gap-6 pt-5">
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Time Management
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Mentorship
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Impeccable Communication
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Flexibility
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Research
+              </div>
+              <div class="p-2 rounded-xl bg-slate-200 flex justify-center">
+                Writing
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
